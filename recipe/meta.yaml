@@ -1,5 +1,5 @@
 {% set name = "carma" %}
-{% set version = "0.7.0" %}
+{% set version = "0.8.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/RUrlus/carma/archive/v{{ version }}.tar.gz
-  sha256: 3bf4d30884160803e9fc15c43435836f53706faef01d84d728da4a4518e378f0
+  sha256: a404687fb7c41880794cb215cb678bc59cdb0ecdf8baa4336103e7834ba6750a
 
 build:
   number: 0
