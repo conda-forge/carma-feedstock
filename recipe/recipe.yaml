@@ -23,7 +23,9 @@ requirements:
 
 tests:
   - script:
-      - ${{ "test -f ${PREFIX}/include/carma/carma" if unix }}
+      - if: unix
+        then:
+          - test -f ${PREFIX}/include/carma/carma
   - package_contents:
       include:
         - carma/carma
