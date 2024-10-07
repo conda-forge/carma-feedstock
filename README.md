@@ -11,12 +11,11 @@ Summary: A C++ header only library providing conversions between Numpy arrays an
 
 Development: https://github.com/RUrlus/carma
 
-Documentation: https://carma.readthedocs.io
+Documentation: https://carma.readthedocs.io/
 
 CARMA provides fast bidirectional conversions between Numpy arrays and
 Armadillo matrices, vectors and cubes, much like RcppArmadillo does for R
 and Armadillo.
-
 
 Current build status
 ====================
@@ -47,6 +46,13 @@ Current build status
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=22440&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/carma-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_arm64</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=22440&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/carma-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -186,5 +192,6 @@ Feedstock Maintainers
 =====================
 
 * [@timkpaine](https://github.com/timkpaine/)
+* [@wolfv](https://github.com/wolfv/)
 * [@zklaus](https://github.com/zklaus/)
 
