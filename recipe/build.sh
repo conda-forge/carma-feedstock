@@ -12,3 +12,5 @@ cmake ${CMAKE_ARGS} \
     ..
 
 cmake --build . --config Release --target install
+
+cat $PREFIX/share/carma/cmake/carmaConfig.cmake
