@@ -9,6 +9,8 @@ package:
 source:
   url: https://github.com/RUrlus/carma/archive/v${{ version }}.tar.gz
   sha256: a404687fb7c41880794cb215cb678bc59cdb0ecdf8baa4336103e7834ba6750a
+  patches:
+    - patch-include-dir.patch
 
 build:
   number: 0
